@@ -1,0 +1,167 @@
+body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, cyan, yellow);
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+          }
+        
+        .tela-login {
+            background-color: rgba(0, 0, 0, 0.8);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 80px;
+            border-radius: 15px;
+            color: white;
+           
+           
+           
+           
+           
+      }
+     
+      .input-login {
+
+             padding: 15px;
+             border: none;
+             outline: none;
+             font-size: 15px;
+             border-radius: 10px;
+
+      }
+      
+      .button-login {
+         background-color: 42993D;
+         border: none;
+         padding: 15px;
+         width: 100%;
+         border-radius: 10px;
+         color: white;
+         
+      }
+      
+      .button-login:hover {
+        background-image: linear-gradient(90deg, #00FF7F, #32CD32, #7FFF00);
+        cursor: pointer;
+      }
+ 
+
+      .checkbox-login {
+        cursor: pointer;
+      }
+
+
+    .h6-login {
+
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    
+   
+  
+    }
+
+    .h6-login:hover{
+
+    color: 64A461;
+    
+    }
+
+    .img-login{
+    width: 100px; 
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    }
+
+ 
+   .navbar{
+   padding: 10px;
+   background-color: 42993D;
+   border-radius: 5px;
+   display: flex;
+    align-items: center;
+    padding: 10px 20px;
+
+    
+   }
+   
+   .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+   }
+
+  .navbar li {
+   float: left;
+  }
+  
+  .navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+   
+  .navbar li a:hover{
+    background-color: 64A46;
+    border-radius: 10px;
+   
+  }
+
+
+  .img-Cadastro{
+    height: 50px; 
+    margin-right: 20px;
+    border-radius: 10px;
+  
+    
+    }
+
+
+
+    .footer {
+      margin-top: auto; 
+      background-color: #42993D; 
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      border-radius: 5%;
+   }
+   
+   .footer ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+   }
+   
+   .footer li {
+      margin: 0 10px;
+   }
+   
+   .footer a {
+      color: white;
+      text-decoration: none;
+     
+   }
+   
+   .footer a:hover {
+      color: #00FF7F;
+   }
+   
+   .footer i {
+      font-size: 24px;
+      
+   }
