@@ -78,7 +78,7 @@ VALUES('$nome','$email', '$telefone', '$registro', '$sexo','$data_nasc','$cidade
     <li><a href="file:///C:/xampp/htdocs/formulario-ecomunitario/Estudo.php/templates/home.html">Home</a></li>
       <li><a href="file:///C:/xampp/htdocs/formulario-ecomunitario/Estudo.php/formulario.">Cadastre-se</a></li>
       <li><a href="file:///C:/xampp/htdocs/formulario-ecomunitario/Estudo.php/templates/login.html">Login</a></li>
-      <li><a href="#">Contato</a></li>
+      
   
     </ul>
 
@@ -169,7 +169,7 @@ VALUES('$nome','$email', '$telefone', '$registro', '$sexo','$data_nasc','$cidade
   
       <a href="https://www.linkedin.com/in/diogo-bezerra-a75986289/"><li> <i class="bi bi-linkedin"></i></li></a>
       <a href="https://www.instagram.com/"><li><i class="bi bi-instagram"></i></li></a>
-      <a><li></li></a>
+      <a href="https://github.com/Diobs02/Ecomunitario"><li><i class="bi bi-github"></i></li></a>
       <a><li></li></a>
     
       </ul>

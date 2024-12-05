@@ -101,6 +101,100 @@ height: 100%;
 
 
 
+      fieldset {
+         border: 1px solid white;
+         flex: 1;
+         max-width: 400px;
+         
+   
+       }
+   
+       legend{
+           border: 1px solid green;
+           padding: 10px;
+           text-align: center;
+           border-radius: 8px;
+           background-color: 42993D;
+          
+       }
+
+
+
+
+       .box{
+         position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-color: rgba(0, 0, 0, 0.8);
+border-radius: 15px;
+color: white;
+padding: 15px;
+width:20% ;
+         
+         }
+
+
+
+         .inputbox{
+            position: relative;
+        }
+    
+        .inputUser{
+    
+            background: none;
+            border: none;
+            border-bottom: 1px solid white;
+            color: white;
+            font-size: 15px;
+            width: 100%;
+            letter-spacing: 2px;
+        }
+
+
+        #submit{
+         outline: none;
+         background-image: linear-gradient(135deg, #006400, #228B22, #32CD32);
+         width: 100%;
+         border: none;
+         padding: 15px;
+         color: white;
+         font-size: 15px;
+         border-radius: 10px;
+         cursor: pointer;
+   
+       }
+   
+       #submit:hover{
+          background-image: linear-gradient(90deg, #00FF7F, #32CD32, #7FFF00);
+   
+   
+       }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       .footer {
          margin-top: auto; 
          background-color: #42993D; 
